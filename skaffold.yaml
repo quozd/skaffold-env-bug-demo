@@ -1,0 +1,12 @@
+apiVersion: skaffold/v3alpha1
+kind: Config
+build:
+  artifacts:
+    - image: test
+      docker:
+        dockerfile: Dockerfile
+verify:
+  - name: test
+    container:
+      name: test
+      image: test

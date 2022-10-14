@@ -1,0 +1,4 @@
+package skaffoldenvbugdemo
+
+func main() {
+}
